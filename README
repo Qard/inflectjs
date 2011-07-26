@@ -1,0 +1,13 @@
+# InflectJS
+InflectJS Provides basic inflection utilities and formatters for camelCase and separations.
+
+## API
+plural(str [, keep_case]) -- Convert a singular word to plural. Lowercases by default.
+singular(str [, keep_case]) -- Convert a plural word to singular. Lowercases by default.
+camel(str) -- Merge separated words, spaces or otherwise, to a camelcased word.
+separate(str, splitter, keep_case) -- Separate words using define separator. Also converts camelcased words. Lowercases by default.
+underscores(str, keep_case) -- Alias for separating with _
+dashes(str, keep_case) -- Alias for separating with -
+pluses(str, keep_case) -- Alias for separating with +
+human(str, caps_all) -- Convert separated or camelcased words to a human readable format.
+trim(str) -- Trim whitespace from a string.

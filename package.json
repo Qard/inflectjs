@@ -1,0 +1,8 @@
+{
+  "name": "inflectjs",
+  "version":"0.0.1",
+  "engines": {
+    "node": ">=v0.4.0"
+  },
+  "dependencies": {}
+}
