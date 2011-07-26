@@ -12,6 +12,9 @@
   // Make singular words plural.
   exports.plural = function(str, keep_case) {
     var s = this.trim(str);
+
+    // It's easier to avoid multipluralization by singularizing first.
+    s = this.singular(str);
     if ( ! keep_case) { s = s.toLowerCase(); }
     switch (s.substr(-1)) {
       case 'y':
